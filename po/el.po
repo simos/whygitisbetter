@@ -1,0 +1,933 @@
+# Simos Xenitellis <simos@gnome.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-12-14 19:50+0100\n"
+"PO-Revision-Date: 2008-12-14 19:59+0000\n"
+"Last-Translator: Simos Xenitellis <simos@gnome.org>\n"
+"Language-Team: el <team@gnome.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.html:1
+msgid "Why Git is Better Than X"
+msgstr "Γιατί το Git είναι καλύτερο από X"
+
+#: index.html:2
+msgid "Why Git is Better than X"
+msgstr "Γιατί το Git είναι καλύτερο από X"
+
+#: index.html:3
+msgid ""
+"hg</span> \t\t\t\t\t\t\t<span class=\"lang bzr\">bzr</span> \t\t\t\t\t\t\t<span class=\"lang "
+"svn\">svn</span> \t\t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr ""
+"hg</span> \t\t\t\t\t\t\t<span class=\"lang bzr\">bzr</span> \t\t\t\t\t\t\t<span class=\"lang "
+"svn\">svn</span> \t\t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+
+#: index.html:4
+msgid "where \"x\" is one of"
+msgstr "όπου \"x\" είναι ένα από"
+
+#: index.html:5
+msgid ""
+"This site is here because I seem to \t\t\t\t\t\tbe spending a lot of time lately "
+"defending Gitsters against  \t\t\t\t\t\tcharges of fanboyism, bandwagonism \t\t\t\t\t\t"
+"and koolaid-thirst.  So, here is why people are switching to Git from \t\t\t\t\t\t"
+"X, and why you should too.  Just click on a reason to view it."
+msgstr ""
+"Αυτός ο δικτυακός τόπος υπάρχει διότι φαίνεται \t\t\t\t\t\tνα ξοδεύω πολύ χρόνο τελευταία "
+"υπερασπίζοντας τους χρήστες Git έναντι \t\t\t\t\t\tκατηγορίες όπως προσπαθούν να φαίνονται "
+"μοδάτοι\t\t\t\t\t\t"
+"ή ακολουθούν ό,τι είναι καινούριο.  Οπότε, εδώ είναι οι λόγοι γιατί ο κόσμος πάει Git από "
+"\t\t\t\t\t\t"
+"X, και γιατί πρέπει και εσείς να κάνετε το ίδιο.  Απλά πατήστε στο επιχείρημα για να το "
+"δείτε."
+
+#: index.html:6
+msgid "Expand all</a> | \t\t\t\t\t  <a href=\"#\" class=\"collapse_all\">Collapse all"
+msgstr "Ανάπτυξη όλων</a> | \t\t\t\t\t  <a href=\"#\" class=\"collapse_all\">Σύμπτυξη όλων"
+
+#: index.html:7
+msgctxt "index.html:7"
+msgid ""
+"hg</span> \t\t\t\t\t\t<span class=\"lang bzr\">bzr</span> \t\t\t\t\t\t<span class=\"lang "
+"svn\">svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr ""
+"hg</span> \t\t\t\t\t\t<span class=\"lang bzr\">bzr</span> \t\t\t\t\t\t<span class=\"lang "
+"svn\">svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+
+#: index.html:8
+msgid "Cheap Local Branching"
+msgstr "Φθηνή τοπική διακλάδωση"
+
+#: index.html:9
+msgid ""
+"Probably Git's most compelling feature that really makes it stand \t\t\t\t\t\t\t"
+"apart from nearly every other SCM out there is its branching \t\t\t\t\t\t\tmodel.  "
+"It is completely different from all of the models I'm  \t\t\t\t\t\t\tcomparing it "
+"to here, most of which recommend that the best branch \t\t\t\t\t\t\tis basically a "
+"clone of the repository in a new directory."
+msgstr ""
+
+#: index.html:10
+msgid ""
+"Git does not work like that.  Git will allow you to have multiple \t\t\t\t\t\t\t"
+"local branches that can be entirely independent of each other and \t\t\t\t\t\t\tthe "
+"creation, merging and deletion of those lines of development \t\t\t\t\t\t\ttake "
+"seconds."
+msgstr ""
+
+#: index.html:11
+msgid "This means that you can do things like: \t\t\t\t\t\t\t<ul>"
+msgstr ""
+
+#: index.html:12
+msgid ""
+"Create a branch to try out an idea, commit \t\t\t\t\t\t\t\t\ta few times, switch back "
+"to where you branched from, apply a patch,  \t\t\t\t\t\t\t\t\tswitch back to where "
+"you are experimenting, then merge it in."
+msgstr ""
+
+#: index.html:13
+msgid ""
+"Have a branch that always contains only what goes to production, \t\t\t\t\t\t\t\t\t"
+"another that you merge work into for testing and several smaller \t\t\t\t\t\t\t\t\t"
+"ones for day to day work"
+msgstr ""
+
+#: index.html:14
+msgid ""
+"Create new branches for each new feature you're working on, so \t\t\t\t\t\t\t\t\tyou "
+"can seamlessly switch back and forth between them, then delete \t\t\t\t\t\t\t\t\teach "
+"branch when that feature gets merged into your main line."
+msgstr ""
+
+#: index.html:15
+msgid ""
+"Create a branch to experiment in, realize it's not going to \t\t\t\t\t\t\t\t\twork "
+"and just delete it, abandoning the work&mdash;with nobody else \t\t\t\t\t\t\t\t\tever "
+"seeing it (even if you've pushed other branches in the meantime)"
+msgstr ""
+
+#: index.html:16
+msgid "branches flowchart"
+msgstr ""
+
+#: index.html:17
+msgid ""
+"Importantly, when you push to a remote repository, you do <em>not</em> "
+"\t\t\t\t\t\t\thave to push all of your branches.  You can only share one of your "
+"\t\t\t\t\t\t\tbranches and not all of them.  This tends to free people to try "
+"\t\t\t\t\t\t\tnew ideas without worrying about having to plan how and when they "
+"\t\t\t\t\t\t\tare going to merge it in or share it with others."
+msgstr ""
+
+#: index.html:18
+msgid ""
+"You <em>can</em> find ways to do some of this with other systems, but the "
+"work \t\t\t\t\t\t\tinvolved is much more difficult and error-prone.  Git makes this "
+"\t\t\t\t\t\t\tprocess incredibly easy and it changes the way most developers "
+"\t\t\t\t\t\t\twork when they learn it."
+msgstr ""
+
+#: index.html:19
+msgid "jamis twitter"
+msgstr "jamis twitter"
+
+#: index.html:20
+msgid "trevorturk twitter"
+msgstr "trevorturk twitter"
+
+#: index.html:21
+msgid "thillerson twitter"
+msgstr "thillerson twitter"
+
+#: index.html:22
+msgid "boblmartens twitter"
+msgstr "boblmartens twitter"
+
+#: index.html:23
+msgid "mathie twitter"
+msgstr "mathie twitter"
+
+#: index.html:24
+msgctxt "index.html:24"
+msgid "svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr "svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+
+#: index.html:25
+msgid "Everything is Local"
+msgstr "Τα πάντα είναι τοπικά"
+
+#: index.html:26
+msgid ""
+"This is basically true of all the distributed SCMs, but in my \t\t\t\t\t\t\t"
+"experience even more so with Git.  There is very little outside \t\t\t\t\t\t\tof "
+"'fetch', 'pull' and 'push' that communicates in any way with  \t\t\t\t\t\t\t"
+"anything other than your hard disk."
+msgstr ""
+
+#: index.html:27
+msgid ""
+"This not only makes most operations much faster than you may               "
+"be used to, but it also allows you to work on stuff offline.               "
+"That may not sound like a big deal, but I'm always amazed at               "
+"how often I actually do work offline.  Being able to branch,               "
+"merge, commit and browse history of your project while on                the "
+"plane or train is very productive."
+msgstr ""
+
+#: index.html:28
+msgid "local repo to remote repo flowchart"
+msgstr ""
+
+#: index.html:29
+msgid ""
+"Even in Mercurial, common commands like 'incoming' and 'outgoing' hit "
+" \t\t\t\t\t\t\tthe server, whereas with Git you can 'fetch' all the servers data "
+"\t\t\t\t\t\t\tbefore going offline and do comparisons, merges and logs of data "
+"\t\t\t\t\t\t\tthat is on the server but not in your local branches yet."
+msgstr ""
+
+#: index.html:30
+msgid ""
+"This means that it's very easy to have copies of not only your \t\t\t\t\t\t\t"
+"branches, but also of everyone's branches that are working with \t\t\t\t\t\t\tyou "
+"in your Git repository without having to mess your own stuff \t\t\t\t\t\t\tup."
+msgstr ""
+
+#: index.html:31
+msgid ""
+"bzr</span> \t\t\t\t\t\t<span class=\"lang svn\">svn</span> \t\t\t\t\t\t<span class=\"lang "
+"perforce\">perforce"
+msgstr ""
+"bzr</span> \t\t\t\t\t\t<span class=\"lang svn\">svn</span> \t\t\t\t\t\t<span class=\"lang "
+"perforce\">perforce"
+
+#: index.html:32
+msgid "Git is Fast"
+msgstr "Το Git είναι γρήγορο"
+
+#: index.html:33
+msgid ""
+"Git is fast.  Everyone&mdash;even most of the hard core users of these "
+"\t\t\t\t\t\t\tother systems&mdash;generally give Git this title.  With Git, all "
+"\t\t\t\t\t\t\toperations are performed locally giving it a bit of a leg up on "
+"\t\t\t\t\t\t\tSVN and Perforce, both of which require network access for certain "
+"operations. \t\t\t\t\t\t\tHowever, even compared to the other DSCMs that also "
+"perform operations \t\t\t\t\t\t\tlocally, Git is pretty fast."
+msgstr ""
+
+#: index.html:34
+msgid ""
+"Part of this is likely because it was built to work on the Linux  \t\t\t\t\t\t\t"
+"kernel, which means that it has had to deal effectively with large \t\t\t\t\t\t\t"
+"repositories from day one.  Additionally, Git is written in C, reducing the "
+"\t\t\t\t\t\t\toverhead of runtimes associated with higher-level languages. \t\t\t\t\t\t\t"
+"Another reason that Git is so fast is that the primary developers \t\t\t\t\t\t\t"
+"have made this a design goal of the application."
+msgstr ""
+
+#: index.html:35
+msgid ""
+"The following are a number of benchmarks that I performed on three \t\t\t\t\t\t\t"
+"copies of the Django source code repository in 3 different SCMs: \t\t\t\t\t\t\tGit, "
+"Mercurial and Bazaar.  I also tested some of this stuff in SVN, \t\t\t\t\t\t\tbut "
+"trust me, it's slower&mdash;basically take the Bazaar numbers and \t\t\t\t\t\t\t"
+"then add network latency..."
+msgstr ""
+
+#: index.html:36
+msgid "init benchmarks"
+msgstr ""
+
+#: index.html:37
+msgid "add benchmarks"
+msgstr ""
+
+#: index.html:38
+msgid "status benchmarks"
+msgstr ""
+
+#: index.html:39
+msgid "diff benchmarks"
+msgstr ""
+
+#: index.html:40
+msgid "branching benchmarks"
+msgstr ""
+
+#: index.html:41
+msgid "tag benchmarks"
+msgstr ""
+
+#: index.html:42
+msgid "log benchmarks"
+msgstr ""
+
+#: index.html:43
+msgid "large commit benchmarks"
+msgstr ""
+
+#: index.html:44
+msgid "small commit benchmarks"
+msgstr ""
+
+#: index.html:45
+msgid ""
+"The end result was that for everything but adding new files, Git \t\t\t\t\t\t\twas "
+"fastest. (Also really large commits, which Hg was basically the \t\t\t\t\t\t\tsame "
+"at, but the commit I tested was so large that you're unlikely \t\t\t\t\t\t\tto ever "
+"do anything like it&mdash;normal commits are much faster in Git.)"
+msgstr ""
+
+#: index.html:46
+msgctxt "index.html:46"
+msgid "Git"
+msgstr "Git"
+
+#: index.html:47
+msgctxt "index.html:47"
+msgid "Hg"
+msgstr "Hg"
+
+#: index.html:48
+msgctxt "index.html:48"
+msgid "Bzr"
+msgstr "Bzr"
+
+#: index.html:49
+msgid "Init"
+msgstr "Init"
+
+#: index.html:50
+msgid "0.024s"
+msgstr "0.024s"
+
+#: index.html:51
+msgid "0.059s"
+msgstr "0.059s"
+
+#: index.html:52
+msgid "0.600s"
+msgstr "0.600s"
+
+#: index.html:53
+msgid "Add"
+msgstr ""
+
+#: index.html:54
+msgid "8.535s"
+msgstr "8.535s"
+
+#: index.html:55
+msgid "0.368s"
+msgstr "0.368s"
+
+#: index.html:56
+msgid "2.381s"
+msgstr "2.381s"
+
+#: index.html:57
+msgid "Status"
+msgstr ""
+
+#: index.html:58
+msgid "0.451s"
+msgstr "0.451s"
+
+#: index.html:59
+msgid "1.946s"
+msgstr "1.946s"
+
+#: index.html:60
+msgid "14.744s"
+msgstr "14.744s"
+
+#: index.html:61
+msgid "Diff"
+msgstr ""
+
+#: index.html:62
+msgid "0.543s"
+msgstr ""
+
+#: index.html:63
+msgid "2.189s"
+msgstr ""
+
+#: index.html:64
+msgid "14.248s"
+msgstr ""
+
+#: index.html:65
+msgid "Tag"
+msgstr ""
+
+#: index.html:66
+msgid "0.056s"
+msgstr ""
+
+#: index.html:67
+msgid "1.201s"
+msgstr ""
+
+#: index.html:68
+msgid "1.892s"
+msgstr ""
+
+#: index.html:69
+msgid "Log"
+msgstr ""
+
+#: index.html:70
+msgid "0.711s"
+msgstr ""
+
+#: index.html:71
+msgid "2.650s"
+msgstr ""
+
+#: index.html:72
+msgid "9.055s"
+msgstr ""
+
+#: index.html:73
+msgid "Commit (Large)"
+msgstr ""
+
+#: index.html:74
+msgid "12.480s"
+msgstr ""
+
+#: index.html:75
+msgid "12.500s"
+msgstr ""
+
+#: index.html:76
+msgid "23.002s"
+msgstr ""
+
+#: index.html:77
+msgid "Commit (Small)"
+msgstr ""
+
+#: index.html:78
+msgid "0.086s"
+msgstr ""
+
+#: index.html:79
+msgid "0.517s"
+msgstr ""
+
+#: index.html:80
+msgid "1.139s"
+msgstr ""
+
+#: index.html:81
+msgid "Branch (Cold)"
+msgstr ""
+
+#: index.html:82
+msgid "1.161s"
+msgstr ""
+
+#: index.html:83
+msgid "94.681s"
+msgstr ""
+
+#: index.html:84
+msgid "82.249s"
+msgstr ""
+
+#: index.html:85
+msgid "Branch (Hot)"
+msgstr ""
+
+#: index.html:86
+msgid "0.070s"
+msgstr ""
+
+#: index.html:87
+msgid "12.300s"
+msgstr ""
+
+#: index.html:88
+msgid "39.411s"
+msgstr ""
+
+#: index.html:89
+msgid ""
+"The cold and hot branching numbers are the numbers for the first \t\t\t\t\t\t\tand "
+"second times that I branched a repo&mdash;the second number being \t\t\t\t\t\t\ta "
+"branch with a hot disk cache."
+msgstr ""
+
+#: index.html:90
+msgid ""
+"It should be noted that although the 'add' numbers are much slower, "
+"              this was for a massive add operation&mdash;over 2000 files.  "
+"For the               majority of what most people do on a daily basis, add "
+"ops in any               of these systems will only take a fraction of a "
+"second. All of the               other ops tested here (except for the large "
+"commit, possibly) are               more indicative of things you might "
+"actually do day to day."
+msgstr ""
+
+#: index.html:91
+msgid ""
+"These numbers are really not difficult to recreate, simply clone the Django "
+"\t\t\t\t\t\tproject in each of the systems and try out the same commands in each. "
+"\t\t\t\t\t\t<ul>"
+msgstr ""
+
+#: index.html:92
+msgid "git clone git://github.com/brosner/django.git dj-git"
+msgstr "git clone git://github.com/brosner/django.git dj-git"
+
+#: index.html:93
+msgid "hg clone http://hg.dpaste.com/django/trunk dj-hg"
+msgstr "hg clone http://hg.dpaste.com/django/trunk dj-hg"
+
+#: index.html:94
+msgid "bzr branch lp:django dj-bzr"
+msgstr "bzr branch lp:django dj-bzr"
+
+#: index.html:95
+msgid "svn checkout http://code.djangoproject.com/svn/django/trunk dj-svn"
+msgstr "svn checkout http://code.djangoproject.com/svn/django/trunk dj-svn"
+
+#: index.html:96
+msgid "svn"
+msgstr "svn"
+
+#: index.html:97
+msgid "Git is Small"
+msgstr "To Git είναι μικρό"
+
+#: index.html:98
+msgid ""
+"Git is really good at conserving disk space.  Your Git directory will "
+" \t\t\t\t\t\t\t(in general) barely be larger than an SVN checkout&mdash;in some "
+"cases \t\t\t\t\t\t\tactually smaller (apparently a lot can go in those .svn dirs)."
+msgstr ""
+
+#: index.html:99
+msgid ""
+"The following numbers were taken from clones of the Django project \t\t\t\t\t\t\tin "
+"each of its semi-official Git mirrors at the same point in  \t\t\t\t\t\t\tits "
+"history."
+msgstr ""
+
+#: index.html:100
+msgctxt "index.html:100"
+msgid "Git"
+msgstr "Git"
+
+#: index.html:101
+msgctxt "index.html:101"
+msgid "Hg"
+msgstr "Hg"
+
+#: index.html:102
+msgctxt "index.html:102"
+msgid "Bzr"
+msgstr "Bzr"
+
+#: index.html:103
+msgctxt "index.html:103"
+msgid "SVN"
+msgstr "SVN"
+
+#: index.html:104
+msgid "Repo Alone"
+msgstr ""
+
+#: index.html:105
+msgid "24M"
+msgstr "24M"
+
+#: index.html:106
+msgid "34M"
+msgstr "34M"
+
+#: index.html:107
+msgid "45M"
+msgstr "45M"
+
+#: index.html:108
+msgid "Entire Directory"
+msgstr ""
+
+#: index.html:109
+msgid "43M"
+msgstr ""
+
+#: index.html:110
+msgid "53M"
+msgstr ""
+
+#: index.html:111
+msgid "64M"
+msgstr ""
+
+#: index.html:112
+msgid "61M"
+msgstr ""
+
+#: index.html:113
+msgctxt "index.html:113"
+msgid ""
+"hg</span> \t\t\t\t\t\t<span class=\"lang bzr\">bzr</span> \t\t\t\t\t\t<span class=\"lang "
+"svn\">svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr ""
+
+#: index.html:114
+msgid "The Staging Area"
+msgstr ""
+
+#: index.html:115
+msgid ""
+"Unlike the other systems, Git has what it calls the \"staging area\" \t\t\t\t\t\t\tor "
+"\"index\".  This is an intermediate area that you can setup what \t\t\t\t\t\t\tyou "
+"want your commit to look like before you commit it."
+msgstr ""
+
+#: index.html:116
+msgid ""
+"The cool thing about the staging area, and what sets Git apart  \t\t\t\t\t\t\tfrom "
+"all these other tools, is that you can easily stage some of \t\t\t\t\t\t\tyour "
+"files as you finish them and then commit them without committing \t\t\t\t\t\t\tall "
+"the modified files in your working directory, or having to list \t\t\t\t\t\t\tthem "
+"on the command line during the commit"
+msgstr ""
+
+#: index.html:117
+msgid "add commit workflow diagram"
+msgstr ""
+
+#: index.html:118
+msgid ""
+"This also allows you to stage only portions of a modified file.  Gone are "
+"\t\t\t\t\t\t  the days of making two logically unrelated modifications to a file "
+"before \t\t\t\t\t\t  you realized that you forgot to commit one them.  Now you can "
+"just stage \t\t\t\t\t\t  the change you need for the current commit and stage the "
+"other change for \t\t\t\t\t\t  the next commit.  This feature scales up to as "
+"many different changes to \t\t\t\t\t\t  your file as you need."
+msgstr ""
+
+#: index.html:119
+msgid ""
+"Of course, Git also makes it pretty easy to ignore this feature \t\t\t\t\t\t\tif "
+"you don't want that kind of control&mdash;just slap a '-a' to your \t\t\t\t\t\t\t"
+"commit command in order to add all changes to all files to the staging area."
+msgstr ""
+
+#: index.html:120
+msgid "commit only workflow diagram"
+msgstr ""
+
+#: index.html:121
+msgctxt "index.html:121"
+msgid "svn</span> \t\t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr ""
+
+#: index.html:122
+msgid "Distributed"
+msgstr "Κατανεμηνένο"
+
+#: index.html:123
+msgid ""
+"One of the coolest features of any of the Distributed SCMs, Git included, is "
+"that it's               distributed.  This means that instead of doing a "
+"\"checkout\" of the current tip of                the source code, you do a "
+"\"clone\" of the entire repository."
+msgstr ""
+
+#: index.html:124
+msgid ""
+"This means that even                if you're using a centralized workflow, "
+"every user has what is essentially a full               backup of the main "
+"server, each of which could be pushed up to replace the main server "
+"              in the event of a crash or corruption.  There is basically no "
+"single point of failure               with Git unless there is only a "
+"single point."
+msgstr ""
+
+#: index.html:125
+msgid ""
+"This does not slow things down much, either.  On average, an SVN checkout is "
+"only marginally               faster than any of the DSCMs. Of the DSCMs I "
+"tested, Git was the fastest."
+msgstr ""
+
+#: index.html:126
+msgid "cloning benchmarks"
+msgstr ""
+
+#: index.html:127
+msgctxt "index.html:127"
+msgid "Git"
+msgstr "Git"
+
+#: index.html:128
+msgid "1m 59s"
+msgstr "1m 59s"
+
+#: index.html:129
+msgctxt "index.html:129"
+msgid "Hg"
+msgstr "Hg"
+
+#: index.html:130
+msgid "2m 24s"
+msgstr "2m 24s"
+
+#: index.html:131
+msgctxt "index.html:131"
+msgid "Bzr"
+msgstr "Bzr"
+
+#: index.html:132
+msgid "5m 11s"
+msgstr "5m 11s"
+
+#: index.html:133
+msgctxt "index.html:133"
+msgid "SVN"
+msgstr "SVN"
+
+#: index.html:134
+msgid "1m 4s"
+msgstr "1m 4s"
+
+#: index.html:135
+msgid "svn</span> \t\t\t\t\t<span class=\"lang perforce\">perforce"
+msgstr "svn</span> \t\t\t\t\t<span class=\"lang perforce\">perforce"
+
+#: index.html:136
+msgid "Any Workflow"
+msgstr ""
+
+#: index.html:137
+msgid ""
+"One of the amazing things about Git is that because of its distributed "
+"\t\t\t\t\t\tnature and super branching system, you can easily implement pretty "
+"\t\t\t\t\t\tmuch any workflow you can think of relatively easily."
+msgstr ""
+
+#: index.html:138
+msgid "Subversion-Style Workflow"
+msgstr ""
+
+#: index.html:139
+msgid ""
+"A very common Git workflow, especially from people transitioning \t\t\t\t\t\tfrom "
+"a centralized system, is a centralized workflow.  Git will  \t\t\t\t\t\tnot allow "
+"you to push if someone has pushed since the last time \t\t\t\t\t\tyou fetched, so "
+"a centralized model where all developers push to \t\t\t\t\t\tthe same server works "
+"just fine."
+msgstr ""
+
+#: index.html:140
+msgid "subversion-style workflow"
+msgstr ""
+
+#: index.html:141
+msgid "Integration Manager Workflow"
+msgstr ""
+
+#: index.html:142
+msgid ""
+"Another common Git workflow is where there is an integration  \t\t\t\t\t\t"
+"manager&mdash;a single person who commits to the 'blessed' repository, "
+"\t\t\t\t\t\tand then a number of developers who clone from that repository, "
+" \t\t\t\t\t\tpush to their own independent repositories and ask the integrator "
+"\t\t\t\t\t\tto pull in their changes.  This is the type of development model "
+" \t\t\t\t\t\tyou often see with open source or GitHub repositories."
+msgstr ""
+
+#: index.html:143
+msgid "integration manager workflow"
+msgstr ""
+
+#: index.html:144
+msgid "Dictator and Lieutenants Workflow"
+msgstr ""
+
+#: index.html:145
+msgid ""
+"For more massive projects, you can setup your developers similar to \t\t\t\t\t\t"
+"the way the Linux kernel is run, where people are in charge of a \t\t\t\t\t\t"
+"specific subsystem of the project ('lieutenants') and merge in all \t\t\t\t\t\t"
+"changes that have to do with that subsystem.  Then another integrator \t\t\t\t\t\t"
+"(the 'dictator') can pull changes from only his/her lieutenants and \t\t\t\t\t\t"
+"the push to the 'blessed' repository that everyone then clones from \t\t\t\t\t\t"
+"again."
+msgstr ""
+
+#: index.html:146
+msgid "dictator and lieutenants workflow"
+msgstr ""
+
+#: index.html:147
+msgid ""
+"Again, Git is entirely flexible about this, so you can mix and  \t\t\t\t\t\tmatch "
+"and choose the workflow that is right for you."
+msgstr ""
+
+#: index.html:148
+msgid ""
+"hg</span> \t\t\t\t\t<span class=\"lang svn\">svn</span> \t\t\t\t\t<span class=\"lang "
+"perforce\">perforce"
+msgstr ""
+
+#: index.html:149
+msgid "GitHub"
+msgstr ""
+
+#: index.html:150
+msgid "octocat"
+msgstr ""
+
+#: index.html:151
+msgid ""
+"I <em>may</em> be biased here, given that I work for  \t\t\t\t\t\t<a "
+"href=\"http://github.com\">GitHub</a>,  \t\t\t\t\t\tbut I add this section anyway "
+"because so many people say that \t\t\t\t\t\tGitHub itself was specifically why "
+"they chose Git."
+msgstr ""
+
+#: index.html:152
+msgid ""
+"GitHub is a reason to use Git for many people because it is more  \t\t\t\t\t\tlike "
+"a social network for code than a simple hosting site.  People \t\t\t\t\t\tfind "
+"other developers or projects that are similar to the things \t\t\t\t\t\tthey are "
+"doing, and can easily fork and contribute, creating a very \t\t\t\t\t\tvibrant "
+"community around Git and the projects that people use it \t\t\t\t\t\tfor."
+msgstr ""
+
+#: index.html:153
+msgid ""
+"There exist other services, both for Git and for the other SCMs, \t\t\t\t\t\tbut "
+"few are user-oriented or socially \t\t\t\t\t\ttargeted, and none have anywhere "
+"near the user-base.   \t\t\t\t\t\tThis social aspect of GitHub is killer, and this "
+"in combination of the above features \t\t\t\t\t\tmake working with Git and GitHub "
+"a great combination for rapidly  \t\t\t\t\t\tdeveloping open source projects."
+msgstr ""
+
+#: index.html:154
+msgid "This type of community is simply not available with any of the other SCMs."
+msgstr ""
+
+#: index.html:155
+msgid ""
+"And no, BitBucket doesn't count just because they ripped off GitHub screen "
+"for screen.             When they are 30 times bigger and I hear that anyone "
+"choose Mercurial over something              else because of the community "
+"on BitBucket, then I'll reconsider.             <br/>             <br/> "
+"            Launchpad for Bazaar is closer, but they're still a fraction of "
+"the size, nor have I             heard of anyone leaning towards Bzr "
+"because of the incredible Launchpad community             they want to take "
+"part in.  However, as they are more legitimate, I've removed the "
+"            'bzr' flag from this argument."
+msgstr ""
+
+#: index.html:156
+msgid "puls twitter"
+msgstr ""
+
+#: index.html:157
+msgid "twitter"
+msgstr "twitter"
+
+#: index.html:158
+msgid "perforce"
+msgstr "perforce"
+
+#: index.html:159
+msgid "Easy to Learn"
+msgstr "Εύκολο στην εκμάθηση"
+
+#: index.html:160
+msgid ""
+"This did not used to be true&mdash;early in Git's life, it was not really "
+" \t\t\t\t\t\tan SCM so much as a bunch of tools that let you do versioned "
+"filesystem  \t\t\t\t\t\twork in a distributed manner.  However, today, the command "
+"set and  \t\t\t\t\t\tlearning curve of Git are pretty similar to any other SCM, "
+"and even  \t\t\t\t\t\tbetter than some."
+msgstr ""
+
+#: index.html:161
+msgid ""
+"Since this is difficult to prove objectively without some sort of  \t\t\t\t\t\t"
+"study, I'll just show the difference between the default 'help' menu for the "
+"\t\t\t\t\t\tMercurial and Git commands.  I've highlighted the commands that are "
+"\t\t\t\t\t\tidentical (or nearly) between the two systems.  (In Hg, if you type "
+"'hg help', you  \t\t\t\t\t\tget a list of 40-some commands.)"
+msgstr ""
+
+#: index.html:162
+msgid "Mercurial Help"
+msgstr ""
+
+#: index.html:163
+msgid "Git Help"
+msgstr ""
+
+#: index.html:164
+msgid ""
+"Prior to Git 1.6, all of the Git commands used to be in the executable \t\t\t\t\t"
+"path, which was very confusing to people.  Although Git still recognizes "
+"\t\t\t\t\tall of those commands, the only command in the path is now 'git'. "
+"\t\t\t\t\tSo, if you look at Mercurial and Git, Git has a nearly identical "
+" \t\t\t\t\tcommand set and help system&mdash;there is very little difference "
+"from  \t\t\t\t\ta beginning UI perspective today."
+msgstr ""
+
+#: index.html:165
+msgid ""
+"These days it's pretty hard to argue that Mercurial or Bazaar is any \t\t\t\t\t"
+"easier to learn than Git is."
+msgstr ""
+
+#: index.html:166
+msgid "Expand all</a> | \t\t\t\t  <a href=\"#\" class=\"collapse_all\">Collapse all"
+msgstr ""
+
+#: index.html:167
+msgid ""
+"This site is built and maintained by <a "
+"href=\"http://github.com/schacon\">Scott Chacon</a>, a \t\t\t<a "
+"href=\"http://github.com\">GitHubber</a>.<br />  \t\t\tIf you disagree with "
+"anything on the site and you have a good reason, please  \t\t\t<a "
+"href=\"mailto:schacon@gmail.com\">email me</a> so I can fix it.<br />  \t\t\tThe "
+"source for this site is <a "
+"href=\"http://github.com/schacon/whygitisbetter\">on GitHub</a>&mdash;feel "
+"      free to send patches if you want to improve it. <br/>"
+msgstr ""
+
+#: index.html:168
+msgid ""
+"Also in :        <a href=\"http://de.whygitisbetterthanx.com\">German</a>, "
+"       <a href=\"http://es.whygitisbetterthanx.com\">Spanish</a>,        <a "
+"href=\"http://fr.whygitisbetterthanx.com\">French</a>,        <a "
+"href=\"http://it.whygitisbetterthanx.com\">Italian</a>,        <a "
+"href=\"http://lol.whygitisbetterthanx.com\">Lolcat</a>,        <a "
+"href=\"http://nl.whygitisbetterthanx.com\">Dutch</a>,        <a "
+"href=\"http://no.whygitisbetterthanx.com\">Norwegian</a>,        <a "
+"href=\"http://pt.whygitisbetterthanx.com\">Portuguese</a>,        <a "
+"href=\"http://sv.whygitisbetterthanx.com\">Swedish</a>,       <a href=\"http"
+"://zh-cn.whygitisbetterthanx.com\">Simplified</a> and       <a href=\"http"
+"://zh-tw.whygitisbetterthanx.com\">Traditional Chinese</a>"
+msgstr ""
+
+#: index.html:169
+msgid "Valid XHTML"
+msgstr "Έγκυρο XHTML"
+
